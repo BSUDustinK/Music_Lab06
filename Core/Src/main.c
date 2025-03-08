@@ -178,8 +178,9 @@ int main(void)
   int noteCount = 0;
   int introCount;
 
-  int tempoForSong = 1200;
-
+  int tempoForSong = 1200; 
+  int tempoForVerse = 1200;
+/*
   for(introCount=0;introCount<6;introCount++){
 
     Song[noteCount].note = C4;
@@ -566,7 +567,6 @@ int main(void)
   noteCount++;
 
 
-
   Song[noteCount].note = E4;
   Song[noteCount].size = _8th;
   Song[noteCount].tempo = tempoForSong;
@@ -587,8 +587,6 @@ int main(void)
   Song[noteCount].space = 10;
   Song[noteCount].end = 0;
   noteCount++;
-
-
 
 
   Song[noteCount].note = G4;
@@ -631,6 +629,227 @@ int main(void)
   Song[noteCount].note = C3;
   Song[noteCount].size = _16th;
   Song[noteCount].tempo = tempoForSong;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;                          //Note #62
+*/
+  ////Verse 1A
+
+  //Not sure what this one is
+  //Song[noteCount].note = E4;
+  //Song[noteCount].size = quarter;
+  //Song[noteCount].tempo = tempoForSong;
+  //Song[noteCount].space = 10;
+  //Song[noteCount].end = 0;
+  //noteCount++;
+
+  Song[noteCount].note = A5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = A5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = A5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = G5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = F5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = A5;
+  Song[noteCount].size = half;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = G5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = F5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+
+
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = A5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = F5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+
+
+  Song[noteCount].note = D5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = D5;
+  Song[noteCount].size = half;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = rest;    //I use this to differenetiate the dot after the note
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = F5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = A5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = rest;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = F5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = A5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = G5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = F5;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+
+  Song[noteCount].note = D5;
+  Song[noteCount].size = _8th;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+  Song[noteCount].note = D5;
+  Song[noteCount].size = half;
+  Song[noteCount].tempo = tempoForVerse;
+  Song[noteCount].space = 10;
+  Song[noteCount].end = 0;
+  noteCount++;
+
+//Verse 1B
+  Song[noteCount].note = rest;
+  Song[noteCount].size = quarter;
+  Song[noteCount].tempo = tempoForVerse;
   Song[noteCount].space = 10;
   Song[noteCount].end = 0;
   noteCount++;
